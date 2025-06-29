@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lmarket-payant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="avis.css">
+  <link rel="stylesheet" href="back.css">
+
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BGSDGQ543W');
+</script>
+</head>
+
+<body>
+  <header>
+    <!--L'en tete du site-->
+    <h1><img src="20250613_003237.png" width="200" height="60" alt="Logo du site"></h1>
+      <button id="menuButton" class="menu-button">
+            <span class="menu-icon">  <img src="20250627_203055.png" width="50" height="30" alt="menu" ></span> <!-- Icône de menu -->
+      </button>
+ </header>     
+  
+
+    <div id="menuOverlay" class="menu-overlay">
+        <div class="menu-content">
+            <h2>MENU</h2>         
+          <!-- Bouton pour ouvrir le sélecteur -->
+<button id="open-categories" class="categories-btn"></button>
+      
+    <!-- Fenêtre modale des catégories -->
+
+  <h3>Nos Catégories</h3>
+         
+    <span class="close-modal">&times;</span>
+    <div class="categories-list">
+      <button data-category="all">Tous les produits</button>
+      <button data-category="livres payants">Livres payants</button>
+      <button data-category="chaussures">Chaussures</button>
+      <button data-category="baskets">Baskets</button>
+      <button data-category="vetements">Vêtements</button>
+      <button data-category="phones">Phones</button>
+      <button data-category="accessoires">Accessoires</button>
+      <button data-category="montres">Montres</button>
+      <button data-category="habillements">Habillement</button>
+      <button data-category="ordinateurs">Ordinateurs</button>
+    </div><br>
+     <h3><a href="https://wa.me/243988400578?text=Bonjour%20je%20vous%20contacte%20depuis%20Lmarket%20j'ai%20besoin%20de..." target="_blank" style="background-color: #25D366; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold;">
+    Whatsapp
+</a></h3><br>
+  <h3><a href="avis.html" style="background-color: #1877F2; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Commentaire</a></h3><br>
+ <h3><a href="info.html" style="background-color: #1877F2; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Information</a></h3><br>
+ <h3><a href="politic.html" style="background-color: #1877F2; color: white; padding: 10px 15px; border-radius: 5px; text-decoration: none; font-weight: bold; display: inline-block;">Politique de confidentialité</a></h3><br>
+
+                
+    </div>
+    </div>    
+
+  
+<!-- contenaire pour tous les articles -->  
+  <div class="content">
+    
+
+    <!-- BARRE DE RECHERCHE --> 
+    <div class="search-container">
+  <input type="text" id="search-input" placeholder="Rechercher un produit...">
+  <button id="search-button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+      <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+    </svg>
+  </button>
+</div>
+    <div class="search-suggestions hidden" id="search-suggestions"></div>
+    
+  <!-- Photo promotion -->
+    <div class="product">
+    <img src="20250629_214905.png" alt="image promo lipanda">
+    </div>
+    
+    <div class="dernier">
+    <h2>Articles payants</h2>
+    </div>
+      <div class="actions">
+     <a href="Payant.html" class="btn btn-payant" target="_blank">Article Payant</a>
+    <a href="Gratuit.html" class="btn btn-gratuit" target="_blank">Article Gratuit</a>
+  </div>
+</div><br>
+    <!-- LES NOUVELES ARTICLES DOIVENT ETRE COLLES ICI -->
+    
+  <!-- ARTICLE PAYANT -->
+    <!-- Adidas campus -->
+<div class="product" 
+  data-category="baskets" 
+  data-name="Adidas campus" 
+  data-id="006"
+  data-class="baskets"
+  data-phone="+243988400578"
+  data-prince="15$">
+    <a class="subtext">Nom de l'article:</a><strong>Adidas Campus</strong>   
+  <p>Basket Adidas Campus original Tous les couleurs.  <br> Pointure: 35-45'
+        <br><strong><a style="color:red;">LIVRAISON 5000FC</a></strong></p>
+  
+  <br><img src="20250618_151445.jpg" alt="image adidas campus">
+  <p class="subtext">Lorsque vous appuyer sur ACHETER, vous allez êtres diriger sur Whatsapp pour finaliser l'achat.</p>
+  <div class="actions">
+    <div class="btn btn-prix">15$</div>
+    <button class="btn btn-whatsapp whatsapp-order-btn" 
+            data-product="Adidas Campus noir-blanc" 
+            data-price="15$"
+            data-phone="+243988400578">
+      ACHETER
+    </button>
+  </div>
+  
+  <strong><p>Partagez l'article</p></strong>
+ 
+    <div class="share-buttons">           
+        <button class="share-btn" data-share="whatsapp">Whatsapp</button>
+      <button class="share-btn" data-share="facebook">facebook</button>
+      <button class="share-btn" data-share="twitter">twitter</button>
+      <button class="copy-link-btn" data-id="006">Copier le lien</button>
+    </div>
+       </div>
+  
+  
+  
+<!-- Message "Article non trouvé" -->
+    <div id="no-results-message" class="hidden">
+        <p>Aucun article ne correspond à votre recherche.</p>
+    </div>
+  <button id="back-to-top" aria-label="Retour en haut">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+  
+  <div class="feedback-cta">
+  <a href="avis.html" class="feedback-btn">
+    <span class="emoji">🗨️</span>
+    <span class="text">Voir les commentaires des clients</span>
+    <span class="arrow">→</span>
+  </a>
+  <p class="subtext">Découvrez ce que nos clients adorent !<br>Et dites nous ce que vous adorez !</p>
+</div>
+  
+  </div>  <footer>
+    &copy; 2025 L.market - Tous droits réservés
+  </footer>
+<script src="script.js"></script>
+<script src="share.js"></script>
+</body>
+</html>
